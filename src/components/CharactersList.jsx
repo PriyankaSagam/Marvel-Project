@@ -34,7 +34,7 @@ const CharactersList = () => {
                             <img className="imgchar1"
                             src={`${character.thumbnail.path}.${character.thumbnail.extension}`}
                             alt={character.name} />
-                            </li>
+                        </li>
                     ))}
                 </ul>
             </div>

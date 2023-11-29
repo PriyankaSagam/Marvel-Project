@@ -4,7 +4,7 @@ function Home() {
     return (
         <div>
               <img src={marvelLogo} className='img' />
-      </div>
+        </div>
   )
 }
 

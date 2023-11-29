@@ -26,19 +26,24 @@ const SeriesList = () => {
         return (
             <div>
                 <h1 className="text2">Marvel Series</h1>
-                <ul>
+                <ul className="ul">
                     {series.map((serie) => (
-                        <li key={serie.id}>
-                            <h3 className="setit">{serie.title}</h3>
-                            <h4 className="year">Year : {serie.startYear}</h4>
-                            <h4 className="stories">Stories : {serie.stories.available}</h4>
-                            <h4><strong>Story Names :</strong></h4>
-                            <h4>{serie.stories.items.map((item) => (<ul className="storyname">{item.name}</ul>))}</h4>
-                            <h4><strong>Comics :</strong> {serie.comics.available}</h4>
-                            <img
-                            src={`${serie.thumbnail.path}.${serie.thumbnail.extension}`}
-                            alt={serie.title} className="imgser1" />
+                        <li className="containerser" key={serie.id}>
+                            <div id='ser1'> 
+                                 <h3 className="setit">{serie.title}</h3>
+                                 <h4 className="year">Year : {serie.startYear}</h4>
+                                 <h4 className="stories">Stories : {serie.stories.available}</h4>
+                                 <h4 id="stories"><strong>Story Names :</strong></h4>
+                                 <h4>{serie.stories.items.map((item) => (<ul className="storyname">{item.name}</ul>))}</h4>
+                                 <h4 id="comics"><strong>Comics :</strong> {serie.comics.available}</h4>
+                             </div>
+                             <div id='ser2'>
+                                   <img
+                                    src={`${serie.thumbnail.path}.${serie.thumbnail.extension}`}
+                                    alt={serie.title} className="imgser1" />
+                             </div>
                         </li>
+                            
                     ))}
                 </ul>
             </div>
