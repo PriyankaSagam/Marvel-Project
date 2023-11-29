@@ -24,14 +24,13 @@ const CharactersList = () => {
     }, []);
     const loaded = () => {
         return (
-            <div className="container1">
+            <div >
                
-                <h1>Marvel Characters</h1>
-                <ul>
+                <h1 className="text">Marvel Characters</h1>
+                <ul className="container1">
                     {characters.map((character) => (
-                        <li className="charlist" key={character.id}>
-                            <h3>{character.name}</h3>
-                            {/* <h4>{character.description }</h4> */}
+                        <li key={character.id}>
+                            <h3 className="chartext">{character.name}</h3>
                             <img className="imgchar1"
                             src={`${character.thumbnail.path}.${character.thumbnail.extension}`}
                             alt={character.name} />

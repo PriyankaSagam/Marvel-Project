@@ -6,13 +6,13 @@ function Nav() {
   return (
       <div className="Nav">
           <Link to='/home'>
-              Home
+             <strong> Home</strong>
           </Link> 
           <Link to='/characters'>
-              Characters
+          <strong> Characters</strong>
           </Link> 
           <Link to='/series'>
-              Series
+          <strong> Series</strong>
           </Link> 
     </div>
   )
