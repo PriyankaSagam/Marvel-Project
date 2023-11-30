@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import Series from './pages/Series'
 import Nav from './components/Nav'
 import { Route,Routes } from 'react-router-dom'
-import Footer from './components/footer'
+import Footer from './components/Footer'
   function App() {
 
     return (
