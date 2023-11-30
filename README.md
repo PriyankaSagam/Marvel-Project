@@ -52,8 +52,8 @@
 # Technologies 
        Html,css,React js
 # WireFrame for Series
-
-    ![Alt text](src/images/serieswireframe.png)
+  
+  ![Alt text](src/images/Serieswireframe.png)
 
 # WireFrame for Characters
  
