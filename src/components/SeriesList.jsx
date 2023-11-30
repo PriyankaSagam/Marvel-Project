@@ -33,8 +33,15 @@ const SeriesList = () => {
                                  <h3 className="setit">{serie.title}</h3>
                                  <h4 className="year">Year : {serie.startYear}</h4>
                                  <h4 className="stories">Stories : {serie.stories.available}</h4>
-                                 <h4 id="stories"><strong>Story Names :</strong></h4>
-                                 <h4>{serie.stories.items.map((item) => (<ul className="storyname">{item.name}</ul>))}</h4>
+                                <h4 id="stories"><strong>Story Names :</strong></h4>
+                                
+                                <h4>{serie.stories.items.map((item) => (
+                                    <ul className="storyname">
+                                        {item.name}
+                                    </ul>
+                                ))}
+                                </h4>
+                                
                                  <h4 id="comics"><strong>Comics :</strong> {serie.comics.available}</h4>
                              </div>
                              <div id='ser2'>

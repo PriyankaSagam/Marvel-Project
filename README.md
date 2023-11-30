@@ -69,6 +69,6 @@
 
 # Deployed site:
 
-   https://lambent-crisp-b3b042.netlify.app/
+   https://priyanka-marvel-project.netlify.app/
 
 
