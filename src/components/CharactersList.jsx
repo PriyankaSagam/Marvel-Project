@@ -25,7 +25,7 @@ const CharactersList = () => {
     const loaded = () => {
         return (
             <div >
-               
+               <br/>
                 <h1 className="text">Marvel Characters</h1>
                 <ul className="container1">
                     {characters.map((character) => (
