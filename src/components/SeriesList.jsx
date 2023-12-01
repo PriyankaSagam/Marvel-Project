@@ -42,7 +42,6 @@ const SeriesList = () => {
                                     </ul>
                                 ))}
                                 </h4>
-                            x
                                  <h4 id="comics"><strong>Comics :</strong> {serie.comics.available}</h4>
                              </div>
                              <div id='ser2'>
