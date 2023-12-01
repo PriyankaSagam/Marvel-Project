@@ -66,5 +66,4 @@
 
 # Deployed site:
 
-https://priyanka-marvel-project1.netlify.app/
-
+https://priyanka-marvel-project2.netlify.app/
